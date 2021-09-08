@@ -1,0 +1,130 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'un1.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        if not Dialog.objectName():
+            Dialog.setObjectName(u"Dialog")
+        Dialog.resize(1699, 1215)
+        self.pushButton = QPushButton(Dialog)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(30, 40, 93, 28))
+        self.pushButton_2 = QPushButton(Dialog)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(140, 40, 93, 28))
+        self.pushButton_3 = QPushButton(Dialog)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(250, 40, 93, 28))
+        self.pushButton_4 = QPushButton(Dialog)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(360, 40, 93, 28))
+        self.pushButton_5 = QPushButton(Dialog)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(470, 40, 93, 28))
+        self.pushButton_6 = QPushButton(Dialog)
+        self.pushButton_6.setObjectName(u"pushButton_6")
+        self.pushButton_6.setGeometry(QRect(580, 40, 93, 28))
+        self.pushButton_7 = QPushButton(Dialog)
+        self.pushButton_7.setObjectName(u"pushButton_7")
+        self.pushButton_7.setGeometry(QRect(1240, 40, 93, 28))
+        self.pushButton_8 = QPushButton(Dialog)
+        self.pushButton_8.setObjectName(u"pushButton_8")
+        self.pushButton_8.setGeometry(QRect(910, 40, 93, 28))
+        self.pushButton_9 = QPushButton(Dialog)
+        self.pushButton_9.setObjectName(u"pushButton_9")
+        self.pushButton_9.setGeometry(QRect(1130, 40, 93, 28))
+        self.pushButton_10 = QPushButton(Dialog)
+        self.pushButton_10.setObjectName(u"pushButton_10")
+        self.pushButton_10.setGeometry(QRect(690, 40, 93, 28))
+        self.pushButton_11 = QPushButton(Dialog)
+        self.pushButton_11.setObjectName(u"pushButton_11")
+        self.pushButton_11.setGeometry(QRect(800, 40, 93, 28))
+        self.pushButton_12 = QPushButton(Dialog)
+        self.pushButton_12.setObjectName(u"pushButton_12")
+        self.pushButton_12.setGeometry(QRect(1020, 40, 93, 28))
+        self.pushButton_13 = QPushButton(Dialog)
+        self.pushButton_13.setObjectName(u"pushButton_13")
+        self.pushButton_13.setGeometry(QRect(1350, 40, 93, 28))
+        self.pushButton_14 = QPushButton(Dialog)
+        self.pushButton_14.setObjectName(u"pushButton_14")
+        self.pushButton_14.setGeometry(QRect(1460, 40, 93, 28))
+        self.pushButton_15 = QPushButton(Dialog)
+        self.pushButton_15.setObjectName(u"pushButton_15")
+        self.pushButton_15.setGeometry(QRect(1570, 40, 93, 28))
+        self.pushButton_16 = QPushButton(Dialog)
+        self.pushButton_16.setObjectName(u"pushButton_16")
+        self.pushButton_16.setGeometry(QRect(1570, 40, 93, 28))
+        self.pushButton_17 = QPushButton(Dialog)
+        self.pushButton_17.setObjectName(u"pushButton_17")
+        self.pushButton_17.setGeometry(QRect(1520, 90, 93, 28))
+        self.pushButton_18 = QPushButton(Dialog)
+        self.pushButton_18.setObjectName(u"pushButton_18")
+        self.pushButton_18.setGeometry(QRect(1410, 90, 93, 28))
+        self.lcdNumber = QLCDNumber(Dialog)
+        self.lcdNumber.setObjectName(u"lcdNumber")
+        self.lcdNumber.setGeometry(QRect(1550, 190, 64, 23))
+        self.textBrowser_3 = QTextBrowser(Dialog)
+        self.textBrowser_3.setObjectName(u"textBrowser_3")
+        self.textBrowser_3.setGeometry(QRect(20, 120, 1221, 1081))
+        self.plainTextEdit = QPlainTextEdit(Dialog)
+        self.plainTextEdit.setObjectName(u"plainTextEdit")
+        self.plainTextEdit.setGeometry(QRect(1340, 130, 161, 31))
+        self.plainTextEdit_2 = QPlainTextEdit(Dialog)
+        self.plainTextEdit_2.setObjectName(u"plainTextEdit_2")
+        self.plainTextEdit_2.setGeometry(QRect(1520, 130, 91, 31))
+        self.pushButton_19 = QPushButton(Dialog)
+        self.pushButton_19.setObjectName(u"pushButton_19")
+        self.pushButton_19.setGeometry(QRect(30, 90, 93, 28))
+        font = QFont()
+        font.setPointSize(6)
+        self.pushButton_19.setFont(font)
+        self.pushButton_20 = QPushButton(Dialog)
+        self.pushButton_20.setObjectName(u"pushButton_20")
+        self.pushButton_20.setGeometry(QRect(360, 90, 93, 28))
+        self.pushButton_21 = QPushButton(Dialog)
+        self.pushButton_21.setObjectName(u"pushButton_21")
+        self.pushButton_21.setGeometry(QRect(250, 90, 93, 28))
+        self.pushButton_21.setFont(font)
+
+        self.retranslateUi(Dialog)
+
+        QMetaObject.connectSlotsByName(Dialog)
+    # setupUi
+
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
+        self.pushButton.setText(QCoreApplication.translate("Dialog", u"Ip Config", None))
+        self.pushButton_2.setText(QCoreApplication.translate("Dialog", u"CMD", None))
+        self.pushButton_3.setText(QCoreApplication.translate("Dialog", u"Reboot", None))
+        self.pushButton_4.setText(QCoreApplication.translate("Dialog", u"Netstat -na", None))
+        self.pushButton_5.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_6.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_7.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_8.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_9.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_10.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_11.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_12.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_13.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_14.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_15.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_16.setText(QCoreApplication.translate("Dialog", u"PushButton", None))
+        self.pushButton_17.setText(QCoreApplication.translate("Dialog", u"Telnet", None))
+        self.pushButton_18.setText(QCoreApplication.translate("Dialog", u"Ping", None))
+        self.pushButton_19.setText(QCoreApplication.translate("Dialog", u"save ipconfig", None))
+        self.pushButton_20.setText(QCoreApplication.translate("Dialog", u"save Netstat", None))
+        self.pushButton_21.setText(QCoreApplication.translate("Dialog", u"\u043e\u0442\u043c\u0435\u043d\u0430 Reboot", None))
+    # retranslateUi
+
