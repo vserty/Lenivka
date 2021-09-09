@@ -67,6 +67,8 @@ def on_click_ping(): # команда ping
         print(ip_adress1)
     result.close()
 
+def on_click_rdp(): # окно RDP
+    os.popen('mstsc')
 
 # def on_click_telnet(): # команда telnet
 #     form.textBrowser_3.clear()
@@ -79,7 +81,7 @@ def on_click_ping(): # команда ping
 #         print(result)
 #     #result.close()
 
-
+form.pushButton_5.clicked.connect(on_click_rdp)
 form.pushButton.clicked.connect(on_click_ipconfig)
 #form.pushButton_19.clicked.connect(on_click_ipconfig_save)
 form.pushButton_2.clicked.connect(on_click_cmd)
